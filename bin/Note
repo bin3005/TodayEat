@@ -1,0 +1,58 @@
+=============================
+이영중
+
+4.AscMenu 클래스 메뉴이름 ㄱ-ㄴ-ㄷ순으로 오름차순           (comparator패키지)
+5.AscRestraunt 클래스 식당이름 ㄱ-ㄴ-ㄷ순으로 오름차순 (comparator패키지)
+36.public void sortList()  (controller)
+37.public void menuList() 	(controller)
+25.public void bestRestraunt() (controller)
+11.ArrayList<Restraunt> bestRestraunt() 평점계산해서 베스트레스토랑 반환 (dao)
+
+=============================
+이승빈
+
+6.Dao생성자 "RestaurantData.dat"에 생성시 자동으로 불러오기   (Dao) 구현완료
+27. public void saveData() (controller) 구현완료
+13. void saveData() 파일저장 (controller) 구현완료
+22. ArrayList<Menu> addMenu() (controller) ////처음 추가할떄메뉴 (구현완료)
+23.  ArrayList<Review> addReview() 생성시 평점,소요시간 평균내기 식당리스트 (controller) <구현완료>
+15. void createReview(int reNo) 생성시 평점,소요시간 평균내기 식당리스트 (dao) <구현완료>
+30.public void createReview(int reNo)  (controller)
+
+=============================
+설정목
+
+20. public void prnReview(int reNo)  리뷰 프린트 평점은 별로 프린트  (Dao) 구현완료
+2.Review ->toString override     시간 yyyy년 MM월 dd일 h시 mm분 으로 나오게 (dao) 구현완료
+35.public void prnReview(int reNo) (controller) 구현완료
+34.public void deleteReview(int reNo) (controller) 구현완료
+19.  void deleteReview(int reNo, int reviewNo) 리뷰번호로 삭제 (dao) 구현완료
+9. getLastReviewNo()  리뷰번호반환 삭제할떄 리뷰번호로 (dao) 구현완료
+=============================
+조성효
+
+21. void addRestraunt()  (controller)
+3.Restraunt ->toStrng override (레스토랑클래스)
+7.addRestaurant(Restaurant restaurant) 식당추가 (dao)
+8. ArrayList<Restraunt>  prnAllRestraunt() 리스트전체반환 (dao)
+28. public void prnAllRestraunt() // 모든식당출력 8(controoler)
+=============================
+박기민
+
+1.Menu ->toString override
+31.public void addMenu(int reNO) { (controller)
+16.  void addMenu(int reNo) (dao)
+32.public void deleteMenu(int reNo)  (controller)
+17.void deleteMenu(int reNo, String dName) 이름으로 삭제 (dao)
+33.public void modifyMenu(int reNo) (controller)
+18. void modifyMenu(int reNo, int mPrice)  메뉴이름으로 검색해서 가격 변경 (dao)
+
+
+=============================
+곽진주
+
+24. public void findMenu() 메뉴 이름으로 검색(controller)
+26. public void todayMenu() (controller)
+12. Menu todayMenu()  랜덤으로 메뉴 반환 (dao)
+14. Restraunt prnRestrauntInfo(int reNo)선택한 식당객체반환(dao)
+29. public void prnRestrauntInfo(int reNo) {// 식당정보 모두출력,리뷰,메뉴포함,평점은★로 바꿔서 프린트 9 (Controller)
